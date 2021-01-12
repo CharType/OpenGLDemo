@@ -130,7 +130,7 @@ void RenderScene(void) {
 
         modelViewMatrix.PushMatrix();
         modelViewMatrix.MultMatrix(spheres[i]);
-        shaderManager.UseStockShader(GLT_SHADER_POINT_LIGHT_DIFF,transformPipeline.GetModelViewMatrix(), transformPipeline.GetModelViewProjectionMatrix(), vLightPos, vSphereColor);
+        shaderManager.UseStockShader(GLT_SHADER_POINT_LIGHT_DIFF,transformPipeline.GetModelViewMatrix(), transformPipeline.GetProjectionMatrix(), vLightPos, vSphereColor);
         sphereBatch.Draw();
         modelViewMatrix.PopMatrix();
     }

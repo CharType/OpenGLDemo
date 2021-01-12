@@ -18,6 +18,16 @@
 		887D2DE325860E210066BD4C /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882C14D525657B460013EBC1 /* GLUT.framework */; };
 		887D2DE425860E210066BD4C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882C14D725657B510013EBC1 /* OpenGL.framework */; };
 		887D2DF025860E4E0066BD4C /* mian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887D2DEF25860E4E0066BD4C /* mian.cpp */; };
+		88830DD025A6E4C500D7EDF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88830DCF25A6E4C500D7EDF7 /* main.cpp */; };
+		88830DDD25A6E4D400D7EDF7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882C14D725657B510013EBC1 /* OpenGL.framework */; };
+		88830DDE25A6E4DD00D7EDF7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882C14D525657B460013EBC1 /* GLUT.framework */; };
+		88830DDF25A6E4F700D7EDF7 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 889F38442573E4A300A677E9 /* libGLTools.a */; };
+		8883137C25A7166700D7EDF7 /* floor.tga in Resources */ = {isa = PBXBuildFile; fileRef = 8883137925A7166700D7EDF7 /* floor.tga */; };
+		8883137D25A7166700D7EDF7 /* brick.tga in Resources */ = {isa = PBXBuildFile; fileRef = 8883137A25A7166700D7EDF7 /* brick.tga */; };
+		8883137E25A7166700D7EDF7 /* ceiling.tga in Resources */ = {isa = PBXBuildFile; fileRef = 8883137B25A7166700D7EDF7 /* ceiling.tga */; };
+		8883138625A7167300D7EDF7 /* stone.tga in Resources */ = {isa = PBXBuildFile; fileRef = 8883138525A7167300D7EDF7 /* stone.tga */; };
+		8890ADBD259C185200320115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8890ADBC259C185200320115 /* Assets.xcassets */; };
+		8890ADC0259C185200320115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8890ADBE259C185200320115 /* Main.storyboard */; };
 		889F38452573E4A300A677E9 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 889F38442573E4A300A677E9 /* libGLTools.a */; };
 		889F38462573E4A300A677E9 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 889F38442573E4A300A677E9 /* libGLTools.a */; };
 		889F38472573E4A300A677E9 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 889F38442573E4A300A677E9 /* libGLTools.a */; };
@@ -68,6 +78,16 @@
 		887D2DD625860E160066BD4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		887D2DD925860E160066BD4C /* _______.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "_______.entitlements"; sourceTree = "<group>"; };
 		887D2DEF25860E4E0066BD4C /* mian.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mian.cpp; sourceTree = "<group>"; };
+		88830DCF25A6E4C500D7EDF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8883137925A7166700D7EDF7 /* floor.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = floor.tga; sourceTree = "<group>"; };
+		8883137A25A7166700D7EDF7 /* brick.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = brick.tga; sourceTree = "<group>"; };
+		8883137B25A7166700D7EDF7 /* ceiling.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = ceiling.tga; sourceTree = "<group>"; };
+		8883138525A7167300D7EDF7 /* stone.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = stone.tga; sourceTree = "<group>"; };
+		8890ADB4259C185200320115 /* 金字塔.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "金字塔.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8890ADBC259C185200320115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8890ADBF259C185200320115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8890ADC1259C185200320115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8890ADC4259C185200320115 /* ___.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "___.entitlements"; sourceTree = "<group>"; };
 		889F38442573E4A300A677E9 /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
 		889F43082575559800A677E9 /* 甜甜圈.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "甜甜圈.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		889F43102575559900A677E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,6 +127,16 @@
 				887D2DE325860E210066BD4C /* GLUT.framework in Frameworks */,
 				887D2DE225860E1C0066BD4C /* libGLTools.a in Frameworks */,
 				887D2DE425860E210066BD4C /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8890ADB1259C185200320115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88830DDF25A6E4F700D7EDF7 /* libGLTools.a in Frameworks */,
+				88830DDE25A6E4DD00D7EDF7 /* GLUT.framework in Frameworks */,
+				88830DDD25A6E4D400D7EDF7 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +181,7 @@
 				88D0844A2573DF9100B39F65 /* OpenGL综合案例 */,
 				889F43092575559800A677E9 /* 甜甜圈 */,
 				887D2DCA25860E150066BD4C /* 最后的综合训练 */,
+				8890ADB5259C185200320115 /* 金字塔 */,
 				882C149F25657B320013EBC1 /* Products */,
 				882C14D425657B460013EBC1 /* Frameworks */,
 			);
@@ -164,6 +195,7 @@
 				88D084492573DF9100B39F65 /* OpenGL综合案例.app */,
 				889F43082575559800A677E9 /* 甜甜圈.app */,
 				887D2DC925860E150066BD4C /* 最后的综合训练.app */,
+				8890ADB4259C185200320115 /* 金字塔.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,6 +262,22 @@
 				887D2DEF25860E4E0066BD4C /* mian.cpp */,
 			);
 			path = "最后的综合训练";
+			sourceTree = "<group>";
+		};
+		8890ADB5259C185200320115 /* 金字塔 */ = {
+			isa = PBXGroup;
+			children = (
+				8883137A25A7166700D7EDF7 /* brick.tga */,
+				8883137B25A7166700D7EDF7 /* ceiling.tga */,
+				8883137925A7166700D7EDF7 /* floor.tga */,
+				8890ADBC259C185200320115 /* Assets.xcassets */,
+				8890ADBE259C185200320115 /* Main.storyboard */,
+				8890ADC1259C185200320115 /* Info.plist */,
+				8890ADC4259C185200320115 /* ___.entitlements */,
+				8883138525A7167300D7EDF7 /* stone.tga */,
+				88830DCF25A6E4C500D7EDF7 /* main.cpp */,
+			);
+			path = "金字塔";
 			sourceTree = "<group>";
 		};
 		889F43092575559800A677E9 /* 甜甜圈 */ = {
@@ -305,6 +353,23 @@
 			productReference = 887D2DC925860E150066BD4C /* 最后的综合训练.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8890ADB3259C185200320115 /* 金字塔 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8890ADC7259C185200320115 /* Build configuration list for PBXNativeTarget "金字塔" */;
+			buildPhases = (
+				8890ADB0259C185200320115 /* Sources */,
+				8890ADB1259C185200320115 /* Frameworks */,
+				8890ADB2259C185200320115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "金字塔";
+			productName = "金字塔";
+			productReference = 8890ADB4259C185200320115 /* 金字塔.app */;
+			productType = "com.apple.product-type.application";
+		};
 		889F43072575559800A677E9 /* 甜甜圈 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 889F43352575559900A677E9 /* Build configuration list for PBXNativeTarget "甜甜圈" */;
@@ -370,6 +435,9 @@
 					887D2DC825860E150066BD4C = {
 						CreatedOnToolsVersion = 12.1;
 					};
+					8890ADB3259C185200320115 = {
+						CreatedOnToolsVersion = 12.1;
+					};
 					889F43072575559800A677E9 = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -399,6 +467,7 @@
 				88D084482573DF9100B39F65 /* OpenGL综合案例 */,
 				889F43072575559800A677E9 /* 甜甜圈 */,
 				887D2DC825860E150066BD4C /* 最后的综合训练 */,
+				8890ADB3259C185200320115 /* 金字塔 */,
 			);
 		};
 /* End PBXProject section */
@@ -419,6 +488,19 @@
 			files = (
 				887D2DD225860E160066BD4C /* Assets.xcassets in Resources */,
 				887D2DD525860E160066BD4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8890ADB2259C185200320115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8883137C25A7166700D7EDF7 /* floor.tga in Resources */,
+				8890ADBD259C185200320115 /* Assets.xcassets in Resources */,
+				8883137D25A7166700D7EDF7 /* brick.tga in Resources */,
+				8883137E25A7166700D7EDF7 /* ceiling.tga in Resources */,
+				8883138625A7167300D7EDF7 /* stone.tga in Resources */,
+				8890ADC0259C185200320115 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +550,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8890ADB0259C185200320115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88830DD025A6E4C500D7EDF7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		889F43042575559800A677E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -507,6 +597,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				887D2DD425860E160066BD4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8890ADBE259C185200320115 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8890ADBF259C185200320115 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -749,6 +847,50 @@
 			};
 			name = Release;
 		};
+		8890ADC5259C185200320115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "金字塔/___.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "金字塔/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashaj.cq.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8890ADC6259C185200320115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "金字塔/___.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "金字塔/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashaj.cq.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		889F432F2575559900A677E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -921,6 +1063,15 @@
 			buildConfigurations = (
 				887D2DDB25860E160066BD4C /* Debug */,
 				887D2DDC25860E160066BD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8890ADC7259C185200320115 /* Build configuration list for PBXNativeTarget "金字塔" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8890ADC5259C185200320115 /* Debug */,
+				8890ADC6259C185200320115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
